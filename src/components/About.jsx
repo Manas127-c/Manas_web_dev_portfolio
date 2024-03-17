@@ -65,13 +65,12 @@ const About = () => {
         </div>
         <Skilldetails/>
       </div>
-      <div className='xl:w-[80vw] w-[95vw] h-[70vh]  mx-auto'>
+      <div className='xl:w-[80vw] w-[95vw] min-h-[70vh]  mx-auto'>
         <div className='w-full h-[20%]  flex items-center justify-start gap-3'>
           <h1 className='md:text-6xl text-4xl  text-white'>Certificate & Internships</h1>
         </div>
         <Certifications/>
       </div>
-    
     </div> 
   )
 }
