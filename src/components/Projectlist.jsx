@@ -17,12 +17,12 @@ const Projectlist = () => {
       <motion.div
       initial={{ y: pos }}
       animate={{ y: pos + "rem" }}
-      transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.4 }}
+      transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.1 }}
       className='box absolute top-0 left-[40%] w-[30vw] h-[21rem] overflow-hidden bg-red-400 duration-300 pointer-events-none'>
         {projectdata.map((e,i)=>(<motion.div
             key={i}
             animate={{ y: -pos + `rem` }}
-            transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.5 }}
+            transition={{ ease: [0.76, 0, 0.24, 1], duration: 0.3 }}
             className="w-full h-full bg-red-100 flex items-center justify-center relative"
           >
             <div className='absolute w-[5vw] h-[5vw] rounded-full flex items-center justify-center text-white uppercase bg-blue-500'>
